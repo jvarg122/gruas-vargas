@@ -5,11 +5,14 @@ import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import SocialBar from "./components/SocialBar";
+import NavigationTabs from "./components/NavigationTabs";
+
 
 export default function App() {
   return (
     <div className="font-sans text-gray-800">
       <Navbar />
+      <NavigationTabs />
       <HeroSlider />
       <About />
       <Services />

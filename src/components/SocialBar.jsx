@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTiktok } from "react-icons/fa";
+import { FaFacebookF, FaTiktok, FaWhatsapp } from "react-icons/fa";
 
 export default function SocialBar() {
   return (
@@ -22,6 +22,20 @@ export default function SocialBar() {
       >
         <FaTiktok size={16} />
       </a>
+
+      {/* WhatsApp */}
+      <a
+        href= "https://wa.me/50258653835?text=Hola,%20quiero%20información%20sobre%20sus%20servicios"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-green-500 hover:bg-green-600 text-white p-2.5 rounded-full shadow-lg transition-transform transform hover:scale-110"
+      >
+        <FaWhatsapp size={16} />
+      </a>
     </div>
   );
 }
+
+
+
+
