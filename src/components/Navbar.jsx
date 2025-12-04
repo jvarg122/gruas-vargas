@@ -1,10 +1,23 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <header className="bg-white text-black py-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center px-6">
-        <h1 className="text-2xl font-bold tracking-wide">
-          GRUAS <span className="text-orange-500">VARGAS</span>
-        </h1>
+
+        <Link to="/" className="flex items-center gap-3">
+          <img
+            src="/images/logo.png"
+            alt="Gruas Vargas Logo"
+            className="h-20 w-auto" 
+          />
+
+          <span className="text-2xl font-bold tracking-wide flex items-center">
+            <span className="text-green-700">GRUAS</span>&nbsp;
+            <span className="text-orange-500">VARGAS</span>
+          </span>
+        </Link>
+
         <nav className="space-x-6">
           <a
             href="#inicio"

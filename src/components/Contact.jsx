@@ -1,97 +1,98 @@
 export default function Contact() {
   return (
     <>
-      {/* Contact Section */}
       <section
         id="contacto"
-        className="relative bg-cover bg-center text-white"
-        style={{ backgroundImage: "url('/images/contact-bg.jpg')" }}
+        className="
+          relative px-6 py-28 scroll-mt-20
+          bg-gradient-to-b from-gray-700 via-black to-gray-900
+          text-white
+        "
       >
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="max-w-7xl mx-auto">
+          
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-extrabold tracking-tight">
+              CONTÁC<span className="text-yellow-500">TENOS</span>
+            </h2>
+            <div className="w-24 h-1 bg-yellow-600 mx-auto mt-4"></div>
 
-        {/* Content */}
-        <div className="relative max-w-6xl mx-auto px-6 py-12">
-          {/* Title */}
-          <div className="text-center space-y-2">
-            <div className="flex items-center justify-center gap-3">
-              <i className="fa-solid fa-paper-plane text-4xl text-orange-500"></i>
-              <span className="text-3xl md:text-4xl font-bold text-orange-500 relative inline-block">
-                CONTÁCTENOS
-                {/* small centered underline */}
-                <span className="absolute left-1/2 -bottom-1 w-12 h-1 bg-orange-500 -translate-x-1/2 rounded"></span>
-              </span>
-            </div>
-            <p className="text-base md:text-lg mt-2">
+            <p className="text-gray-300 text-lg mt-5 max-w-2xl mx-auto">
               Envía tu mensaje y nuestro equipo se pondrá en contacto contigo para brindarte la mejor asistencia.
             </p>
           </div>
 
-          {/* Info + Form Grid */}
-          <div className="flex flex-col md:flex-row gap-6 mt-8">
-            {/* Left: Contact Info */}
-            <div className="md:w-1/2 flex flex-col gap-1 text-base md:text-lg font-semibold leading-tight max-h-[500px] overflow-auto">
-              {/* DIRECCIÓN label larger with small orange underline */}
-              <p className="uppercase text-2xl inline-block border-b-2 border-orange-500 pb-1 mb-1">
-                DIRECCIÓN
+          <div className="grid md:grid-cols-2 gap-12 items-stretch">
+
+            <div className="p-10 h-full bg-black/50 backdrop-blur-sm rounded-2xl shadow-2xl border border-gray-800 space-y-6">
+
+              <h3 className="text-3xl font-bold mb-2">INFORMACIÓN</h3>
+              <div className="w-20 h-1 bg-yellow-600 mb-6"></div>
+
+              <p className="flex items-start gap-4 text-gray-300 text-lg">
+                <i className="fa-solid fa-location-dot text-yellow-500 text-3xl"></i>
+                Carretera Al Atlántico Km 137, Río Hondo Zacapa
               </p>
 
-              <p className="flex items-start gap-2 text-lg">
-                <i className="fa-solid fa-location-dot text-orange-500 text-2xl"></i> Carretera Al Atlántico Km 137, Río Hondo Zacapa
+              <p className="flex items-center gap-4 text-gray-300 text-lg">
+                <i className="fa-solid fa-phone text-yellow-500 text-3xl"></i>
+                TEL: (+502) 5865-3835
               </p>
-              <p className="flex items-center gap-2 text-lg">
-                <i className="fa-solid fa-phone text-orange-500 text-2xl"></i> TEL: (+502) 5865-3835
+
+              <p className="flex items-center gap-4 text-gray-300 text-lg">
+                <i className="fa-solid fa-phone text-yellow-500 text-3xl"></i>
+                PBX: (+502) 7934-0541
               </p>
-              <p className="flex items-center gap-2 text-lg">
-                <i className="fa-solid fa-phone text-orange-500 text-2xl"></i> PBX: (+502) 7934-0541
-              </p>
-              <p className="flex items-center gap-2 text-lg">
-                <i className="fa-solid fa-envelope text-orange-500 text-2xl"></i>
-                <a href="mailto:gruasvargaszacapa@yahoo.es" className="text-white">gruasvargaszacapa@yahoo.es</a>
+
+              <p className="flex items-center gap-4 text-gray-300 text-lg">
+                <i className="fa-solid fa-envelope text-yellow-500 text-3xl"></i>
+                <a href="mailto:gruasvargaszacapa@yahoo.es" className="text-yellow-400 hover:underline">
+                  gruasvargaszacapa@yahoo.es
+                </a>
               </p>
             </div>
 
-            {/* Right: Form */}
-            <form className="md:w-1/2 bg-white text-black rounded shadow-md p-4 md:p-6 space-y-3 max-h-[500px] overflow-auto">
-              {/* Nombre + Email */}
-              <div className="flex gap-2">
-                <div className="flex-1 flex items-center border rounded overflow-hidden">
-                  <i className="fa-solid fa-user text-gray-400 px-2 text-xl"></i>
-                  <input type="text" placeholder="Nombre *" className="flex-1 p-2 outline-none" required />
+            <form className="p-10 h-full bg-gray-900/60 backdrop-blur-sm border border-gray-800 rounded-2xl shadow-2xl text-white space-y-5">
+
+              <div className="flex gap-4">
+                <div className="flex-1 flex items-center bg-black/40 border border-gray-700 rounded-xl px-3 py-2">
+                  <i className="fa-solid fa-user text-yellow-500 text-xl mr-2"></i>
+                  <input type="text" placeholder="Nombre *" className="flex-1 bg-transparent outline-none" required />
                 </div>
-                <div className="flex-1 flex items-center border rounded overflow-hidden">
-                  <i className="fa-solid fa-envelope text-gray-400 px-2 text-xl"></i>
-                  <input type="email" placeholder="E-mail *" className="flex-1 p-2 outline-none" required />
+
+                <div className="flex-1 flex items-center bg-black/40 border border-gray-700 rounded-xl px-3 py-2">
+                  <i className="fa-solid fa-envelope text-yellow-500 text-xl mr-2"></i>
+                  <input type="email" placeholder="E-mail *" className="flex-1 bg-transparent outline-none" required />
                 </div>
               </div>
 
-              {/* Teléfono + Asunto */}
-              <div className="flex gap-2">
-                <div className="flex-1 flex items-center border rounded overflow-hidden">
-                  <i className="fa-solid fa-phone text-gray-400 px-2 text-xl"></i>
-                  <input type="text" placeholder="Teléfono *" className="flex-1 p-2 outline-none" required />
+              <div className="flex gap-4">
+                <div className="flex-1 flex items-center bg-black/40 border border-gray-700 rounded-xl px-3 py-2">
+                  <i className="fa-solid fa-phone text-yellow-500 text-xl mr-2"></i>
+                  <input type="text" placeholder="Teléfono *" className="flex-1 bg-transparent outline-none" required />
                 </div>
-                <div className="flex-1 flex items-center border rounded overflow-hidden">
-                  <i className="fa-solid fa-tag text-gray-400 px-2 text-xl"></i>
-                  <input type="text" placeholder="Asunto" className="flex-1 p-2 outline-none" />
+
+                <div className="flex-1 flex items-center bg-black/40 border border-gray-700 rounded-xl px-3 py-2">
+                  <i className="fa-solid fa-tag text-yellow-500 text-xl mr-2"></i>
+                  <input type="text" placeholder="Asunto" className="flex-1 bg-transparent outline-none" />
                 </div>
               </div>
 
-              {/* Mensaje */}
-              <div className="flex items-start border rounded overflow-hidden">
-                <i className="fa-solid fa-comment text-gray-400 px-2 pt-2 text-xl"></i>
-                <textarea placeholder="Mensaje *" rows={3} className="flex-1 p-2 outline-none" required></textarea>
+              <div className="flex items-start bg-black/40 border border-gray-700 rounded-xl px-3 py-3">
+                <i className="fa-solid fa-comment text-yellow-500 text-xl mt-1 mr-3"></i>
+                <textarea placeholder="Mensaje *" rows={4} className="flex-1 bg-transparent outline-none" required></textarea>
               </div>
 
-              <button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 rounded transition">
+              <button className="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 rounded-xl text-lg shadow-lg transition">
                 ENVIAR
               </button>
             </form>
+
           </div>
         </div>
       </section>
 
-      {/* Map Section */}
+      {/* MAP */}
       <section className="w-full">
         <iframe
           title="Ubicación"

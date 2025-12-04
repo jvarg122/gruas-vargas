@@ -41,3 +41,13 @@
   color: #888;
 }
 
+/* Default: make PNG black */
+.icon-img {
+  filter: brightness(0);
+  transition: filter 0.3s ease;
+}
+
+/* Hover: parent with .group triggers this */
+.group:hover .icon-img {
+  filter: brightness(0) saturate(100%) sepia(100%) hue-rotate(80deg) brightness(1.2);
+}
