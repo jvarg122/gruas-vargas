@@ -1,89 +1,133 @@
+import { FaWhatsapp } from 'react-icons/fa';
+
 export default function Contact() {
   return (
     <>
       <section
         id="contacto"
         className="
-          relative px-6 py-28 scroll-mt-20
-          bg-gradient-to-b from-gray-700 via-black to-gray-900
-          text-white
+        relative 
+        px-6 py-28 
+        scroll-mt-20
+        bg-gradient-to-t from-white via-[#f7f7f7] to-[#e9eef5]
+        text-[#333]
         "
       >
         <div className="max-w-7xl mx-auto">
-          
-          <div className="text-center mb-16">
-            <h2 className="text-5xl font-extrabold tracking-tight">
-              CONTÁC<span className="text-yellow-500">TENOS</span>
-            </h2>
-            <div className="w-24 h-1 bg-yellow-600 mx-auto mt-4"></div>
 
-            <p className="text-gray-300 text-lg mt-5 max-w-2xl mx-auto">
+          {/* heading */}
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-extrabold tracking-tight text-[#222]">
+              CONTÁC<span className="text-orange-400">TENOS</span>
+            </h2>
+
+            <div className="w-24 h-1 bg-orange-400 mx-auto mt-4"></div>
+
+            <p className="text-[#555] text-lg mt-5 max-w-2xl mx-auto">
               Envía tu mensaje y nuestro equipo se pondrá en contacto contigo para brindarte la mejor asistencia.
             </p>
           </div>
 
+          {/* GRID */}
           <div className="grid md:grid-cols-2 gap-12 items-stretch">
 
-            <div className="p-10 h-full bg-black/50 backdrop-blur-sm rounded-2xl shadow-2xl border border-gray-800 space-y-6">
+            {/* INFORMATION CARD */}
+            <div className="p-10 bg-white shadow-xl h-full">
 
-              <h3 className="text-3xl font-bold mb-2">INFORMACIÓN</h3>
-              <div className="w-20 h-1 bg-yellow-600 mb-6"></div>
+              <div className="flex items-center gap-4 mb-8">
+                <div className="w-2 h-20 bg-orange-400"></div>
 
-              <p className="flex items-start gap-4 text-gray-300 text-lg">
-                <i className="fa-solid fa-location-dot text-yellow-500 text-3xl"></i>
-                Carretera Al Atlántico Km 137, Río Hondo Zacapa
-              </p>
+                <div className="flex flex-col leading-none">
+                  <h3 className="text-3xl font-bold text-[#222]">INFORMACIÓN</h3>
+                </div>
+              </div>
 
-              <p className="flex items-center gap-4 text-gray-300 text-lg">
-                <i className="fa-solid fa-phone text-yellow-500 text-3xl"></i>
-                TEL: (+502) 5865-3835
-              </p>
+              {/* Contact info aligned */}
+              <div className="flex flex-col gap-4 text-lg text-[#555]">
 
-              <p className="flex items-center gap-4 text-gray-300 text-lg">
-                <i className="fa-solid fa-phone text-yellow-500 text-3xl"></i>
-                PBX: (+502) 7934-0541
-              </p>
+                <div className="flex items-center gap-4">
+                  <i className="fa-solid fa-location-dot text-orange-400 w-10 text-3xl"></i>
+                  <span>Km 137 Carretera Al Atlántico, Río Hondo Zacapa</span>
+                </div>
 
-              <p className="flex items-center gap-4 text-gray-300 text-lg">
-                <i className="fa-solid fa-envelope text-yellow-500 text-3xl"></i>
-                <a href="mailto:gruasvargaszacapa@yahoo.es" className="text-yellow-400 hover:underline">
-                  gruasvargaszacapa@yahoo.es
-                </a>
-              </p>
+                <div className="flex items-center gap-4">
+                  <FaWhatsapp size={40} className="text-orange-400 w-10" />
+                  <span>PBX: (+502) 7934-0541</span>
+                </div>
+
+                <div className="flex items-center gap-4">
+                  <i className="fa-solid fa-phone text-orange-400 w-10 text-3xl"></i>
+                  <span>TEL: (+502) 5865-3835</span>
+                </div>
+
+                <div className="flex items-center gap-4">
+                  <i className="fa-solid fa-envelope text-orange-400 w-10 text-3xl"></i>
+                  <a
+                    href="mailto:gruasvargaszacapa@yahoo.es"
+                    className="text-orange-600 hover:underline"
+                  >
+                    gruasvargaszacapa@yahoo.es
+                  </a>
+                </div>
+
+              </div>
             </div>
 
-            <form className="p-10 h-full bg-gray-900/60 backdrop-blur-sm border border-gray-800 rounded-2xl shadow-2xl text-white space-y-5">
+            {/* FORM CARD */}
+            <form className="p-10 bg-white shadow-xl h-full text-[#333] space-y-6">
 
-              <div className="flex gap-4">
-                <div className="flex-1 flex items-center bg-black/40 border border-gray-700 rounded-xl px-3 py-2">
-                  <i className="fa-solid fa-user text-yellow-500 text-xl mr-2"></i>
-                  <input type="text" placeholder="Nombre *" className="flex-1 bg-transparent outline-none" required />
-                </div>
-
-                <div className="flex-1 flex items-center bg-black/40 border border-gray-700 rounded-xl px-3 py-2">
-                  <i className="fa-solid fa-envelope text-yellow-500 text-xl mr-2"></i>
-                  <input type="email" placeholder="E-mail *" className="flex-1 bg-transparent outline-none" required />
-                </div>
+              {/* NEW TITLE + ICON */}
+              <div className="flex items-center gap-3 mb-8">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 512 512"
+                  className="w-8 h-8 text-orange-400"
+                >
+                  <path d="M476 3.2L12 234.5c-22 11-20.6 42.8 1.9 51.3l111.5 40.2L401.7 121 210.6 345.8V456c0 22.2 26.8 32.4 40.9 16.9l62.8-68.1 107.9 38.9c23 8.3 47.4-9.8 47.4-34.3V31.7c-.1-23.4-24.8-39.6-43.6-28.5z"/>
+                </svg>
+                <h3 className="text-3xl font-bold text-[#222]">Contáctenos</h3>
               </div>
 
               <div className="flex gap-4">
-                <div className="flex-1 flex items-center bg-black/40 border border-gray-700 rounded-xl px-3 py-2">
-                  <i className="fa-solid fa-phone text-yellow-500 text-xl mr-2"></i>
-                  <input type="text" placeholder="Teléfono *" className="flex-1 bg-transparent outline-none" required />
-                </div>
+                <input
+                  type="text"
+                  placeholder="Nombre *"
+                  className="flex-1 border border-gray-300 rounded-lg px-3 py-3 outline-none"
+                  required
+                />
 
-                <div className="flex-1 flex items-center bg-black/40 border border-gray-700 rounded-xl px-3 py-2">
-                  <i className="fa-solid fa-tag text-yellow-500 text-xl mr-2"></i>
-                  <input type="text" placeholder="Asunto" className="flex-1 bg-transparent outline-none" />
-                </div>
+                <input
+                  type="email"
+                  placeholder="E-mail *"
+                  className="flex-1 border border-gray-300 rounded-lg px-3 py-3 outline-none"
+                  required
+                />
               </div>
 
-              <div className="flex items-start bg-black/40 border border-gray-700 rounded-xl px-3 py-3">
-                <i className="fa-solid fa-comment text-yellow-500 text-xl mt-1 mr-3"></i>
-                <textarea placeholder="Mensaje *" rows={4} className="flex-1 bg-transparent outline-none" required></textarea>
+              <div className="flex gap-4">
+                <input
+                  type="text"
+                  placeholder="Teléfono *"
+                  className="flex-1 border border-gray-300 rounded-lg px-3 py-3 outline-none"
+                  required
+                />
+
+                <input
+                  type="text"
+                  placeholder="Asunto"
+                  className="flex-1 border border-gray-300 rounded-lg px-3 py-3 outline-none"
+                />
               </div>
 
-              <button className="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 rounded-xl text-lg shadow-lg transition">
+              <textarea
+                placeholder="Mensaje *"
+                rows={4}
+                className="w-full border border-gray-300 rounded-lg px-3 py-3 outline-none"
+                required
+              ></textarea>
+
+              <button className="w-full bg-orange-400 hover:bg-orange-300 text-black font-bold py-3 rounded-lg text-lg shadow-md transition">
                 ENVIAR
               </button>
             </form>
@@ -102,7 +146,7 @@ export default function Contact() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+        />
       </section>
     </>
   );

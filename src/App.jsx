@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import SocialBar from "./components/SocialBar";
 import NavigationTabs from "./components/NavigationTabs";
+import Hero from "./components/Hero";
 
 import GruasVenta from "./pages/GruasVenta";
 import GruasRenta from "./pages/GruasRenta";
@@ -36,6 +37,7 @@ export default function App() {
             <>
               <HeroSlider />
               <About />
+              <Hero />
               <Services />
               <Contact />
               <Footer />

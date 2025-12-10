@@ -7,6 +7,8 @@ import {
   FaTractor
 } from "react-icons/fa6";
 
+import { motion } from "framer-motion";
+
 export default function Servicios() {
   const servicios = [
     {
@@ -39,8 +41,27 @@ export default function Servicios() {
         />
       )
     },
-    { nombre: "Maquinaria", icon: <FaTractor className="text-4xl" /> },
-    { nombre: "Camiónes con Lowboys y Rastras", icon: <FaTrailer className="text-4xl" /> },
+
+    {
+      nombre: "Maquinaria",
+      icon: (
+        <img
+          src="/images/excavator.png"
+          alt="Maquinaria"
+          className="w-16 h-16 icon-img"
+        />
+      )
+    },
+    {
+      nombre: "Camiónes con Lowboys y Rastras",
+      icon: (
+        <img
+          src="/images/lowboy.png"
+          alt="Camiónes con Lowboys y Rastras"
+          className="w-22 h-16 icon-img"
+        />
+      )
+    },
     { nombre: "Accesorios", icon: <FaBoxesPacking className="text-4xl" /> },
     { nombre: "Asistencia en Ruta 24/7", icon: <FaRoadCircleCheck className="text-4xl" /> },
     { nombre: "Buses", icon: <FaBus className="text-4xl" /> },
@@ -65,15 +86,19 @@ export default function Servicios() {
       {/* Services Grid */}
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
         {servicios.map((s, i) => (
-          <div
+          <motion.div
             key={i}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ duration: 0.6, delay: i * 0.1 }}
             className="group flex flex-col items-center justify-center border rounded-xl py-10 hover:shadow-lg transition-shadow duration-200"
           >
             <div className="mb-4 text-black transition-colors duration-200 group-hover:text-green-600">
               {s.icon}
             </div>
             <p className="font-semibold text-center">{s.nombre}</p>
-          </div>
+          </motion.div>
         ))}
       </div>
 
