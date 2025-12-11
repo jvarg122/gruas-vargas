@@ -58,17 +58,41 @@ export default function Servicios() {
         <img
           src="/images/lowboy.png"
           alt="Camiónes con Lowboys y Rastras"
-          className="w-22 h-16 icon-img"
+          className="w-16 h-16 icon-img"
         />
       )
     },
-    { nombre: "Accesorios", icon: <FaBoxesPacking className="text-4xl" /> },
+    {
+      nombre: "Accesorios",
+      icon: (
+        <img
+          src="/images/jackhammer.png"
+          alt="Accesorios"
+          className="w-16 h-16 icon-img"
+        />
+      )
+    },
     { nombre: "Asistencia en Ruta 24/7", icon: <FaRoadCircleCheck className="text-4xl" /> },
     { nombre: "Buses", icon: <FaBus className="text-4xl" /> },
   ];
 
   return (
-    <section id="servicios" className="bg-white text-black px-6 py-20">
+    <section id="servicios" className="bg-white text-black px-6 pb-20">
+
+<div className="
+  w-screen 
+  relative left-[50%] right-[50%] ml-[-50vw] mr-[-50vw]
+  bg-black text-white 
+  py-12 px-6 text-center 
+  mt-0 mb-16
+">
+  <p className="text-3xl italic font-light leading-relaxed">
+    “La calidad en un producto o servicio no es lo que tú le pones…  
+    sino lo que el cliente obtiene.”
+  </p>
+  <p className="mt-4 text-xl font-semibold text-yellow-400">— Peter Drucker</p>
+</div>
+
       {/* Title */}
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold">NUESTROS SERVICIOS</h2>

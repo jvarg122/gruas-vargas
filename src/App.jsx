@@ -40,8 +40,6 @@ export default function App() {
               <Hero />
               <Services />
               <Contact />
-              <Footer />
-              <SocialBar />
             </>
           } 
         />
@@ -70,6 +68,9 @@ export default function App() {
         <Route path="/accesorios" element={<Accesorios />} />
 
       </Routes>
+
+      <Footer />
+      <SocialBar />
     </div>
   );
 }
