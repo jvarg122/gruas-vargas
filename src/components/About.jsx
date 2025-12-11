@@ -158,7 +158,7 @@ export default function About() {
 
         <div className="max-w-3xl mx-auto text-center">
           <p className="font-[Poppins] text-lg leading-relaxed text-gray-500">
-            La empresa inició labores en el año de 1990, estableciéndose en el Kilómetro 137, Ruta al Atlántico del municipio de Rio Hondo del Departamento de Zacapa y con sucursal en el Kilómetro 245 en el municipio de Morales del departamento de Izabal, en donde cada día nos unimos y nos esforzamos para ofrecer más y mejores servicios, que se demuestran con más de 25 años de experiencia.
+            La TEST empresa inició labores en el año de 1990, estableciéndose en el Kilómetro 137, Ruta al Atlántico del municipio de Rio Hondo del Departamento de Zacapa y con sucursal en el Kilómetro 245 en el municipio de Morales del departamento de Izabal, en donde cada día nos unimos y nos esforzamos para ofrecer más y mejores servicios, que se demuestran con más de 25 años de experiencia.
           </p>
         </div>
       </div>
