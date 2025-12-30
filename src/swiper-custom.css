@@ -1,0 +1,15 @@
+.swiper-bullet-custom {
+  width: 16px;       
+  height: 16px;
+  background-color: #9ca3af;
+  border-radius: 0;  
+  margin: 0 4px !important; 
+  opacity: 1;
+  transition: background-color 0.3s;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.swiper-bullet-custom.swiper-pagination-bullet-active {
+  background-color: #facc15;
+}

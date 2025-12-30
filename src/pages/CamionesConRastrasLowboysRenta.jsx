@@ -2,8 +2,41 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
-export default function GruasVenta() {
+export default function CamionesRenta() {
   const items = [
+    {
+      title: "",
+      desc: "",
+      images: [
+        "/images/.jpg",
+        "/images/.jpg",
+        "/images/.jpg",
+        "/images/.jpg",
+        "/images/.jpg",
+      ],
+    },
+    {
+      title: "",
+      desc: "",
+      images: [
+        "/images/.jpg",
+        "/images/.jpg",
+        "/images/.jpg",
+        "/images/.jpg",
+        "/images/.jpg",
+      ],
+    },
+    {
+      title: "",
+      desc: "",
+      images: [
+        "/images/.jpg",
+        "/images/.jpg",
+        "/images/.jpg",
+        "/images/.jpg",
+        "/images/.jpg",
+      ],
+    },
     {
       title: "",
       desc: "",
@@ -36,7 +69,7 @@ export default function GruasVenta() {
 <div className="w-full flex justify-center">
   <div className="inline-block text-center">
     <h1 className="text-5xl font-extrabold tracking-tight text-black">
-      GRÚAS EN VENTA
+      RENTA DE CAMIONES
     </h1>
 
     <div className="mt-2 flex flex-col">

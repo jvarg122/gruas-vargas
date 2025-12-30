@@ -14,12 +14,10 @@ import GruasVenta from "./pages/GruasVenta";
 import GruasRenta from "./pages/GruasRenta";
 import MontacargasVenta from "./pages/MontacargasVenta";
 import MontacargasRenta from "./pages/MontacargasRenta";
-import CamionesVenta from "./pages/CamionesVenta";
-import CamionesRenta from "./pages/CamionesRenta";
 import MaquinariaVenta from "./pages/MaquinariaVenta";
 import MaquinariaRenta from "./pages/MaquinariaRenta";
-import RastrasLowboysVenta from "./pages/RastrasLowboysVenta";
-import RastrasLowboysRenta from "./pages/RastrasLowboysRenta";
+import CamionesConRastrasLowboysVenta from "./pages/CamionesConRastrasLowboysVenta";
+import CamionesConRastrasLowboysRenta from "./pages/CamionesConRastrasLowboysRenta";
 import Accesorios from "./pages/Accesorios";
 
 export default function App() {
@@ -52,17 +50,13 @@ export default function App() {
         <Route path="/montacargas/venta" element={<MontacargasVenta />} />
         <Route path="/montacargas/renta" element={<MontacargasRenta />} />
 
-        {/* CAMIONES */}
-        <Route path="/camiones/venta" element={<CamionesVenta />} />
-        <Route path="/camiones/renta" element={<CamionesRenta />} />
+        {/* CAMIONES CON RASTRAS Y LOWBOYS */}
+        <Route path="/camiones-con-rastras-lowboys/venta" element={<CamionesConRastrasLowboysVenta />} />
+        <Route path="/camiones-con-rastras-lowboys/venta" element={<CamionesConRastrasLowboysRenta />} />
 
         {/* MAQUINARIA */}
         <Route path="/maquinaria/venta" element={<MaquinariaVenta />} />
         <Route path="/maquinaria/renta" element={<MaquinariaRenta />} />
-
-        {/* RASTRAS Y LOWBOYS */}
-        <Route path="/rastras-lowboys/venta" element={<RastrasLowboysVenta />} />
-        <Route path="/rastras-lowboys/renta" element={<RastrasLowboysRenta />} />
 
         {/* ACCESORIOS */}
         <Route path="/accesorios" element={<Accesorios />} />

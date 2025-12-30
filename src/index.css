@@ -7,12 +7,3 @@
 html {
   overflow-y: scroll;
 }
-
-.icon-img {
-  filter: brightness(0) saturate(100%);
-  transition: filter 0.2s ease;
-}
-
-.group:hover .icon-img {
-  filter: invert(34%) sepia(84%) saturate(900%) hue-rotate(80deg) brightness(0.95);
-}
