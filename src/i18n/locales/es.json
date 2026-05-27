@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "equipment": "Equipos",
+    "gallery": "Galería",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "quote": "Cotizar",
+    "quote_full": "Solicitar Cotización",
+    "cranes_rent": "Renta de Grúas",
+    "cranes_sale": "Venta de Grúas",
+    "forklifts_rent": "Renta de Montacargas",
+    "forklifts_sale": "Venta de Montacargas",
+    "machinery_rent": "Renta de Maquinaria",
+    "machinery_sale": "Venta de Maquinaria",
+    "trucks_rent": "Renta de Camiones",
+    "trucks_sale": "Venta de Camiones",
+    "accessories": "Ver Catálogo"
+  },
+  "hero": {
+    "eyebrow": "Grúas Vargas S.A. — Desde 1990",
+    "line1": "LEVANTAMOS",
+    "line2": "LO IMPOSIBLE",
+    "subtext": "Más de 30 años brindando soluciones de izaje y transporte especializado en Guatemala.",
+    "cta_primary": "Solicitar Cotización",
+    "cta_secondary": "Ver Equipos"
+  },
+  "stats": {
+    "years_value": "30",
+    "years_suffix": "+",
+    "years_label": "Años de Experiencia",
+    "capacity_value": "115",
+    "capacity_suffix": "T",
+    "capacity_label": "Capacidad Máxima",
+    "locations_value": "3",
+    "locations_suffix": "",
+    "locations_label": "Ubicaciones",
+    "service_value": "24",
+    "service_suffix": "/7",
+    "service_label": "Servicio Disponible"
+  },
+  "services": {
+    "eyebrow": "Lo que hacemos",
+    "headline": "NUESTROS SERVICIOS",
+    "subtext": "Equipos certificados, operadores especializados y cobertura en toda Guatemala.",
+    "view_more": "Ver Más",
+    "cranes_rent_title": "Renta de Grúas",
+    "cranes_rent_desc": "Flota de grúas telescópicas y de celosía de hasta 115 toneladas para todo tipo de proyecto.",
+    "cranes_sale_title": "Venta de Equipo",
+    "cranes_sale_desc": "Adquiere maquinaria pesada certificada con soporte técnico y financiamiento disponible.",
+    "forklifts_title": "Montacargas",
+    "forklifts_desc": "Soluciones de elevación para almacenes, puertos e industria con operadores certificados.",
+    "machinery_title": "Maquinaria Pesada",
+    "machinery_desc": "Excavadoras, compactadoras y equipo de construcción disponible para renta y venta.",
+    "transport_title": "Transporte Especializado",
+    "transport_desc": "Camiones con rastras y lowboys para traslado de carga sobredimensionada a nivel nacional.",
+    "roadside_title": "Asistencia Vial",
+    "roadside_desc": "Servicio de rescate y auxilio vial disponible las 24 horas en toda la ruta al Atlántico."
+  },
+  "featured": {
+    "eyebrow": "Flota Destacada",
+    "headline": "EQUIPO PRINCIPAL",
+    "view_all": "Ver Catálogo Completo"
+  },
+  "about": {
+    "eyebrow": "Quiénes Somos",
+    "year": "1990",
+    "headline": "DESDE",
+    "p1": "Grúas Vargas S.A. nació en la Ruta al Atlántico con una sola misión: ofrecer soluciones de izaje confiables para los proyectos más exigentes de Guatemala.",
+    "p2": "Hoy operamos con una flota de más de 9 grúas de hasta 115 toneladas, montacargas, maquinaria pesada y camiones de transporte especializado — respaldados por más de tres décadas de experiencia en campo.",
+    "cta": "Conocer Más"
+  },
+  "why": {
+    "eyebrow": "Por qué elegirnos",
+    "headline": "CONFIANZA EN CADA PROYECTO",
+    "subtext": "Tres décadas de trabajo en campo nos respaldan.",
+    "cert_title": "Flota Certificada",
+    "cert_desc": "Todas las unidades con mantenimiento preventivo, certificaciones vigentes y seguros completos.",
+    "ops_title": "Operadores Especializados",
+    "ops_desc": "Personal con años de experiencia en izaje, certificado para operar en proyectos industriales y de construcción.",
+    "hours_title": "Respuesta 24 / 7",
+    "hours_desc": "Disponibles a cualquier hora del día para emergencias, rescates viales y proyectos con cronograma ajustado.",
+    "coverage_title": "Cobertura Nacional",
+    "coverage_desc": "Tres bases estratégicas en Zacapa, Izabal y Petén para cubrir toda la Ruta al Atlántico y el oriente del país."
+  },
+  "gallery": {
+    "eyebrow": "Nuestro Trabajo",
+    "headline": "PROYECTOS EN CAMPO",
+    "view_all": "Ver Galería Completa"
+  },
+  "cta": {
+    "eyebrow": "Hablemos",
+    "headline": "¿LISTO PARA TU PRÓXIMO PROYECTO?",
+    "subtext": "Cotizaciones sin compromiso. Respondemos en menos de 2 horas.",
+    "whatsapp": "WhatsApp",
+    "email": "Enviar Mensaje"
+  },
+  "footer": {
+    "tagline": "Soluciones de izaje, transporte especializado y maquinaria pesada en Guatemala desde 1990.",
+    "services": "Servicios",
+    "company": "Empresa",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados.",
+    "designed_by": "Diseñado por"
+  }
+}

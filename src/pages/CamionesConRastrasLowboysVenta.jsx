@@ -1,7 +1,17 @@
-export default function CamionesVenta() {
+import EquipmentPage from "../components/sections/EquipmentPage";
+import { trucks } from "../data/equipment";
+
+export default function CamionesConRastrasLowboysVenta() {
   return (
-    <div className="p-10 text-center text-3xl font-bold">
-      VENTA DE CAMIONES
-    </div>
+    <EquipmentPage
+      category="CAMIONES Y LOWBOYS"
+      heroImage="/images/gruacamion1.jpg"
+      rentaItems={trucks}
+      ventaItems={[]}
+      activeTab="venta"
+      rentaPath="/camiones/renta"
+      ventaPath="/camiones/venta"
+      breadcrumb="Camiones"
+    />
   );
 }

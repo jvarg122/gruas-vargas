@@ -1,7 +1,17 @@
+import EquipmentPage from "../components/sections/EquipmentPage";
+import { machinery } from "../data/equipment";
+
 export default function MaquinariaVenta() {
   return (
-    <div className="p-10 text-center text-3xl font-bold">
-      VENTA DE MAQUINARIA
-    </div>
+    <EquipmentPage
+      category="MAQUINARIA"
+      heroImage="/images/IMG_0421.PNG"
+      rentaItems={machinery}
+      ventaItems={[]}
+      activeTab="venta"
+      rentaPath="/maquinaria/renta"
+      ventaPath="/maquinaria/venta"
+      breadcrumb="Maquinaria"
+    />
   );
 }

@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "home": "Home",
+    "equipment": "Equipment",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact",
+    "quote": "Quote",
+    "quote_full": "Request a Quote",
+    "cranes_rent": "Crane Rental",
+    "cranes_sale": "Cranes for Sale",
+    "forklifts_rent": "Forklift Rental",
+    "forklifts_sale": "Forklifts for Sale",
+    "machinery_rent": "Machinery Rental",
+    "machinery_sale": "Machinery for Sale",
+    "trucks_rent": "Truck Rental",
+    "trucks_sale": "Trucks for Sale",
+    "accessories": "View Catalog"
+  },
+  "hero": {
+    "eyebrow": "Grúas Vargas S.A. — Since 1990",
+    "line1": "WE LIFT",
+    "line2": "THE IMPOSSIBLE",
+    "subtext": "Over 30 years delivering crane, transport, and heavy equipment solutions across Guatemala.",
+    "cta_primary": "Request a Quote",
+    "cta_secondary": "View Equipment"
+  },
+  "stats": {
+    "years_value": "30",
+    "years_suffix": "+",
+    "years_label": "Years of Experience",
+    "capacity_value": "115",
+    "capacity_suffix": "T",
+    "capacity_label": "Maximum Capacity",
+    "locations_value": "3",
+    "locations_suffix": "",
+    "locations_label": "Locations",
+    "service_value": "24",
+    "service_suffix": "/7",
+    "service_label": "Service Available"
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "headline": "OUR SERVICES",
+    "subtext": "Certified equipment, specialized operators, and full coverage across Guatemala.",
+    "view_more": "Learn More",
+    "cranes_rent_title": "Crane Rental",
+    "cranes_rent_desc": "Fleet of telescopic and lattice cranes up to 115 tons for any type of project.",
+    "cranes_sale_title": "Equipment Sales",
+    "cranes_sale_desc": "Acquire certified heavy machinery with technical support and financing available.",
+    "forklifts_title": "Forklifts",
+    "forklifts_desc": "Lifting solutions for warehouses, ports and industry with certified operators.",
+    "machinery_title": "Heavy Machinery",
+    "machinery_desc": "Excavators, compactors and construction equipment available for rent and sale.",
+    "transport_title": "Specialized Transport",
+    "transport_desc": "Flatbed trucks and lowboys for oversized cargo transport nationwide.",
+    "roadside_title": "Roadside Assistance",
+    "roadside_desc": "24-hour rescue and roadside assistance service along the Atlantic Highway."
+  },
+  "featured": {
+    "eyebrow": "Featured Fleet",
+    "headline": "MAIN EQUIPMENT",
+    "view_all": "View Full Catalog"
+  },
+  "about": {
+    "eyebrow": "Who We Are",
+    "year": "1990",
+    "headline": "SINCE",
+    "p1": "Grúas Vargas S.A. was founded on Guatemala's Atlantic Highway with one mission: to deliver reliable lifting solutions for the country's most demanding projects.",
+    "p2": "Today we operate a fleet of over 9 cranes up to 115 tons, forklifts, heavy machinery and specialized transport trucks — backed by over three decades of field experience.",
+    "cta": "Learn More"
+  },
+  "why": {
+    "eyebrow": "Why choose us",
+    "headline": "TRUST IN EVERY PROJECT",
+    "subtext": "Three decades of field work back us up.",
+    "cert_title": "Certified Fleet",
+    "cert_desc": "All units with preventive maintenance, current certifications and full insurance coverage.",
+    "ops_title": "Specialized Operators",
+    "ops_desc": "Experienced personnel certified to operate on industrial and construction projects.",
+    "hours_title": "24 / 7 Response",
+    "hours_desc": "Available around the clock for emergencies, roadside rescues and tight-deadline projects.",
+    "coverage_title": "Nationwide Coverage",
+    "coverage_desc": "Three strategic bases in Zacapa, Izabal and Petén covering the full Atlantic Route."
+  },
+  "gallery": {
+    "eyebrow": "Our Work",
+    "headline": "FIELD PROJECTS",
+    "view_all": "View Full Gallery"
+  },
+  "cta": {
+    "eyebrow": "Let's Talk",
+    "headline": "READY FOR YOUR NEXT PROJECT?",
+    "subtext": "No-commitment quotes. We respond in under 2 hours.",
+    "whatsapp": "WhatsApp",
+    "email": "Send Message"
+  },
+  "footer": {
+    "tagline": "Crane, transport, and heavy equipment solutions across Guatemala since 1990.",
+    "services": "Services",
+    "company": "Company",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "designed_by": "Designed by"
+  }
+}

@@ -1,7 +1,17 @@
+import EquipmentPage from "../components/sections/EquipmentPage";
+import { forklifts } from "../data/equipment";
+
 export default function MontacargasVenta() {
   return (
-    <div className="p-10 text-center text-3xl font-bold">
-      VENTA DE MONTACARGAS
-    </div>
+    <EquipmentPage
+      category="MONTACARGAS"
+      heroImage="/images/IMG_0419.PNG"
+      rentaItems={forklifts}
+      ventaItems={[]}
+      activeTab="venta"
+      rentaPath="/montacargas/renta"
+      ventaPath="/montacargas/venta"
+      breadcrumb="Montacargas"
+    />
   );
 }
